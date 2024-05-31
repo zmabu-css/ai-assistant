@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Personal Assistant</title>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Personal Assistant</h1>
+        <input type="text" id="message" placeholder="Speak to Suzu...">
+        <button onclick="sendMessage()">Send</button>
+        <div id="responses"></div>
+      </div>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>

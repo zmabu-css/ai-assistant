@@ -1,0 +1,17 @@
+{
+  "name": "ai-assistant",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "echo 'No build needed' && exit 0"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^4.2.1",
+    "@google-cloud/text-to-speech": "^1.2.2",
+    "@google-cloud/vision": "^2.4.0",
+    "express": "^4.17.1",
+    "openai": "^1.0.0",
+    "socket.io": "^3.1.0"
+  }
+}
